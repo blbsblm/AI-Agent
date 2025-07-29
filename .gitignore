@@ -1,0 +1,11 @@
+# Fichiers sensibles
+.env
+*.env.local
+
+# Données utilisateur
+data/
+!data/.gitkeep
+
+# Cache et builds
+__pycache__/
+*.pyc
